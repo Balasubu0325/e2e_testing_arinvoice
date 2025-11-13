@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Test results
+test-results/
+test-output/
+playwright-report/
+*.log
+
+# Screenshots and videos
+screenshots/
+videos/
+traces/
+
+# Environment configuration
+.env
+.env.local
+.env.production
+
+# Test data
+*.xlsx
+*.csv
+*.json
+!package.json
+!playwright.config.ts
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Build outputs
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Reports
+*.html
+!playwright-report/*.html
